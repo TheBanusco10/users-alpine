@@ -4,4 +4,5 @@ Small project fetching Users from [JSONPlaceholder](https://jsonplaceholder.typi
 
 By David Jiménez Villarejo
 
+- [Live Demo](https://thebanusco10.github.io/users-alpine/)
 - [Portfolio](https://djvdev.com)
