@@ -27,7 +27,7 @@ h2 {
 }
 
 .search-input:focus {
-    outline-width: 0;
+    outline: none;
     border-bottom: 2px solid var(--aqua_color);
 }
 
