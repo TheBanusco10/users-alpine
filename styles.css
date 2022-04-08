@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&family=Nunito:wght@300;400;700&family=Roboto&display=swap');
+
+:root {
+    --aqua_color: mediumaquamarine;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.search-input {
+
+    padding: 10px;
+
+    font-family: "Nunito", sans-serif;
+
+    border: none;
+    border-bottom: 2px solid gray;
+
+    transition: all .3s;
+}
+
+.search-input:focus {
+    outline-width: 0;
+    border-bottom: 2px solid var(--aqua_color);
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+
+.cards .card {
+    min-width: 200px;
+
+    margin: 1rem;
+    padding: 10px;
+
+    border-radius: 4px;
+    border-bottom: 4px solid transparent;
+
+    text-align: left;
+
+    box-shadow: 0px 10px 10px rgba(0,0,0,.1);
+
+    transition: all .3s;
+
+}
+
+.cards .card:hover {
+    border-bottom: 4px solid var(--aqua_color);
+
+    transform: translateY(-5px);
+
+    box-shadow: 0px 10px 10px rgba(0,0,0,.2);
+
+}
+
+.cards .card .name {
+    font-size: 23px;
+    font-weight: bold;
+
+    max-width: 200px;
+}
+
+.cards .card .email {
+    color: gray;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.cards .card .company {
+    cursor: pointer;
+}
